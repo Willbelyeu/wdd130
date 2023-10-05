@@ -1,0 +1,27 @@
+img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+p {
+    width:80%;
+}
+a {
+    font-size: 1.5em;
+}
+h1 {
+    text-align: center;
+}
+a:hover {
+    color: black;
+}
+body {
+    background-color: pink;
+}
+nav, main {
+    text-align: center;
+}
+a, p {
+    color:white;
+    text-align: center;
+}
