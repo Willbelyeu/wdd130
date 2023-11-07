@@ -82,7 +82,7 @@ h2 {
     margin: 0;
 }
 
-.card-img {
+.card-img:hover {
     border: 10px solid black;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
