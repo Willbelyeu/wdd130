@@ -24,20 +24,35 @@
         .card p{
             text-align: center;
         }
+        .card .post-time{
+            margin-block-start: 1;
+            margin-block-end: 0;
+        }
+
         .card .post-heading{
             font-size: 2.0rem;
+            margin-block-start: 0;
+            margin-block-end: 1;
+        }
+        .card .post-content{
+            margin-block-start: 0;
+            margin-block-end: 2em;
+            margin-left: 3em;
+            margin-right: 3em;
         }
         .stats{
             background-color: blue;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             height: 100px;
-            /*grid-template-rows: 30px 30px;*/
+            grid-template-rows: 60px 40px;
             align-content: center;
+            font-size: 2em;
         }
         .stat{
             color: white;
             border-right: grey 1px solid;
+            border-top: grey 1px solid;
         }
         .stat p{
             margin-block-start: 0;
@@ -56,11 +71,28 @@
     <section class="card">
         <img src="images/w09_ice_img.jpg" alt="cityscape">
         <p class="post-time">3 weeks ago</p>
-        <p class="post-heading">post three</p>
-        <p class="post-content">Long sentence about it.</p>
+        <p class="post-heading">Post Three</p>
+        <p class="post-content">Long sentence about it.
+            a second one to approach langth wanted.
+            Long sentence about it.
+            Long sentence about it.
+            Long sentence about it.
+            post-content Long sentence about it.
+            post-content Long sentence about it.
+            post-content Long sentence about it.
+            post-content Long sentence about it.
+            Long sentence about it.
+            a second one to approach langth wanted.
+            Long sentence about it.
+            Long sentence about it.
+            Long sentence about it.
+            post-content Long sentence about it.
+            post-content Long sentence about it.
+            post-content Long sentence about it.
+            post-content Long sentence about it.</p>
         <div class="stats">
             <div class="stat">
-                <p>5m</p>
+                <p>5<sup>m</sup></p>
                 <p>Read</p>
             </div>
             <div class="stat">
