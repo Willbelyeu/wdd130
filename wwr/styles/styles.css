@@ -259,5 +259,23 @@ h4{
     footer {
         margin-top: 25px;
     }
+
+    /* new info for second page */
+    .rivers-info{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+
+    }
+    .rivers-info img{
+        width: 100%;
+        grid-template-columns: 1/3;
+        grid-template-rows: 1/3;
+    }
+    .rivers-info p{
+        width:100%;
+        grid-template-columns: 1/3;
+        grid-template-rows: 3/3;
+
+    }
 }
             
