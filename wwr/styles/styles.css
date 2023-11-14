@@ -230,6 +230,7 @@ h4{
     display: grid;
     grid-template-columns: 1fr 3fr;
     margin-top: 5em;
+    border: 1px solid #000000;
 }
 .rivers-infoboxes img {
     width: 80%;
