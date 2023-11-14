@@ -219,6 +219,31 @@ h4{
     padding-top: 10px;
 }
 
+/* new info for second page */
+.river-pictures h3{
+    text-align: center;
+}
+.rivers-infoboxes h3{
+ text-align: center;
+}
+.rivers-infoboxes{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.rivers-infoboxes img {
+    width: 80%;
+    display: flex;
+    grid-column: 1/2;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.rivers-infoboxes p {
+    grid-column: 2/3;
+    margin-right: 30px;
+}
+/*end*/
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -259,9 +284,4 @@ h4{
     footer {
         margin-top: 25px;
     }
-
-    /* new info for second page */
-    .rivers-images img {
-        width: 500px;
-}
 }
