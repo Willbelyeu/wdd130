@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Lobster&family=Noto+Serif:wght@200&family=Roboto:ital@0;1&display=swap');
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F5B700;
+    text-align: center;
+}
+
+nav a{
+    text-align:center;
+    color:black;
+    text-decoration: none;
+    padding: 35px;
+    display: flex;
+}
+
+nav a:hover{
+    background-color:#3C2E02;
+    color: white;
+}
+
+#logo_link{
+    justify-self:center;
+    align-self: center;
+}
+
+.icon, .logo{
+    width: 60px;
+}
+
+body {
+    background-color: #FFF5D6 ;
+    font-family: "Noto serif" , "sans-serif";;
+}
+
+main p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.home-and-glass-intro img {
+    align-items: center;
+    width: 30%;
+    margin-left: 35%;
+}
+.obsidian-infoboxes img {
+    align-items: center;
+    width: 30%;
+    margin-left: 35%;
+}
+.quartz-infoboxes img {
+    align-items: center;
+    width: 30%;
+    margin-left: 35%;
+}
+h3 {
+    padding-top: 45px;
+    font-size: 1em;
+    text-align: center;
+    font-family: "Lobster";
+}
+
+footer{
+    background-color: #F5B700;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 45px;
+}
+
+@media screen and (max-width: 900px) {
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }}
