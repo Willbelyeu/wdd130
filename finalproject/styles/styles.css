@@ -13,6 +13,8 @@ nav a{
     text-decoration: none;
     padding: 35px;
     display: flex;
+    justify-self:center;
+    align-self: center;
 }
 
 nav a:hover{
