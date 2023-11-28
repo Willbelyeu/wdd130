@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion component example</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <h1>Here are secrets hidden, But what do they mean?</h1>
+    <button class="accordion">Section 1</button>
+    <div class="panel">
+        <nav>
+            <a href="#">Checking if I can hide links</a>
+            <a href="#">two</a>
+            <a href="#">and three</a>
+        </nav>
+    </div>
+    <button class="accordion">Section 2</button>
+    <div class="panel">
+      <p>Can I hide images?</p>
+          <img class="glass-arrowhead" src="images/arrowhead-glass.webp" alt="Glass arrowhead">
+    </div>
+    <button class="accordion">Section 3</button>
+<div class="panel">
+  <h1>Little point to it, but checking if I can hide a header.</h1>
+</div>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
+</html>
