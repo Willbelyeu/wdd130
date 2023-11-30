@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Lobster&family=Noto+Serif:wght@200&family=Roboto:ital@0;1&display=swap');
 
+#content{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -46,16 +51,7 @@ main p {
     width: 30%;
     margin-left: 35%;
 }
-.obsidian-infoboxes img {
-    align-items: center;
-    width: 30%;
-    margin-left: 35%;
-}
-.quartz-infoboxes img {
-    align-items: center;
-    width: 30%;
-    margin-left: 35%;
-}
+
 h3 {
     padding-top: 45px;
     font-size: 2em;
@@ -69,6 +65,79 @@ footer{
     justify-content: space-around;
     align-items: center;
     margin-top: 45px;
+}
+
+.obsidian-infobox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr;
+}
+
+.obsidian-arrowhead{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    width: 100%;
+    height: 100%;
+}
+
+.obsidian-stone{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    width: 100%;
+    height: 100%;
+}
+
+.obsidian-infobox h3{
+    align-self: center;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    width: 100%;
+}
+
+.obsidian-infobox p{
+    grid-column: 2/4;
+    grid-row: 2/3;
+    width: 100%;
+}
+
+.quartz-infobox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr;
+}
+
+.quartz-infobox{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    width: 100%;
+    height: 100%;
+}
+
+.quartz-stone img{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    width: 100%;
+    height: 100%;
+}
+
+.quartz-arrowhead img{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    width: 100%;
+    height: 100%;
+}
+
+.quartz-infobox h3{
+    align-self: center;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    width: 100%;
+}
+
+.quartz-infobox p{
+    grid-column: 2/4;
+    grid-row: 2/3;
+    width: 100%;
 }
 
 @media screen and (max-width: 900px) {
