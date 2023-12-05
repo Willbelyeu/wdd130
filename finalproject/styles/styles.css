@@ -44,6 +44,7 @@ body {
 main p {
     margin-left: 10%;
     margin-right: 10%;
+    text-align: center;
 }
 
 .home-and-glass-intro img {
@@ -68,9 +69,17 @@ footer{
 }
 
 .obsidian-infobox{
+    margin-left: 10%;
+    margin-right: 10%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 1fr 1fr;
+    grid-template-rows: 100px 1fr;
+    padding-top: 45px;
+}
+
+.obsidian-image{
+    grid-row:1/3;
+    align-self: center;
 }
 
 .obsidian-arrowhead{
@@ -101,30 +110,29 @@ footer{
 }
 
 .quartz-infobox{
+    margin-left: 10%;
+    margin-right: 10%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 100px 1fr;
+    padding-top: 45px;
 }
 
-.quartz-infobox{
-    grid-column: 1/2;
-    grid-row: 1/3;
-    width: 100%;
-    height: 100%;
+.quartz-image{
+    grid-row:1/3;
+    align-self: center;
 }
 
-.quartz-stone img{
+.quartz-stone{
     grid-column: 1/2;
     grid-row: 1/3;
-    width: 100%;
-    height: 100%;
+    max-width: 200px;
 }
 
-.quartz-arrowhead img{
+.quartz-arrowhead{
     grid-column: 1/2;
     grid-row: 1/3;
-    width: 100%;
-    height: 100%;
+    max-width: 200px;
 }
 
 .quartz-infobox h3{
